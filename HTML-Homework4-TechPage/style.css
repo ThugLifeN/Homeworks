@@ -1,0 +1,599 @@
+body {
+  margin-top: 0px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+/* Menu CSS styles down bellow */
+
+.anchor {
+  text-decoration: none;
+  flex-grow: 1;
+}
+.nav-menu {
+  display: flex;
+}
+.menu {
+  background-color: #2265a9;
+  color: white;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  flex-grow: 1;
+  font-size: 40px;
+}
+.menu:nth-child(1) {
+  border-right: 10px solid white;
+}
+.menu:nth-child(2) {
+  border-right: 10px solid white;
+}
+.menu:nth-child(3) {
+  border-right: 10px solid white;
+}
+.menu:nth-child(4) {
+  border-right: 10px solid white;
+}
+
+/* Tech Corporate CSS down bellow */
+.section {
+  display: flex;
+  margin-top: 30px;
+  position: relative;
+  line-height: 50px;
+}
+.title {
+  flex-grow: 1;
+  position: relative;
+}
+.corpname {
+  display: inline-block;
+  font-size: 70px;
+  padding-top: 30px;
+}
+.template {
+  flex-grow: 10;
+  position: relative;
+  border-left: black solid 2px;
+  right: 50px;
+}
+.templatename {
+  position: relative;
+  display: inline-block;
+  left: 25px;
+  font-size: 30px;
+  padding-top: 30px;
+}
+.details {
+  flex-grow: 1;
+  position: relative;
+  font-size: 25px;
+  font-family: monospace;
+  text-align: end;
+}
+.contact:nth-child(1) {
+  position: relative;
+  top: 15px;
+}
+.contact:nth-child(2) {
+  position: relative;
+  bottom: 15px;
+}
+
+/* Second Section, photos and paragraps*/
+.poster {
+  position: relative;
+  background-color: #bedaff;
+  margin-top: 30px;
+  height: 800px;
+  text-align: center;
+}
+.technology {
+  position: relative;
+  background-color: #31894d;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: inline-block;
+  border-radius: 50px;
+  width: 1600px;
+  height: 300px;
+  top: 250px;
+}
+.techname {
+  color: white;
+  font-size: 200px;
+  padding-top: 20px;
+}
+.mainbox {
+  position: absolute;
+  background-color: #2265a9;
+  color: white;
+  top: 40px;
+  left: 40px;
+  width: 580px;
+  height: 400px;
+  font-size: large;
+}
+.secondbox {
+  position: relative;
+  margin: 30px;
+}
+.boxheader {
+  text-align: start;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 200;
+}
+.line {
+  border-style: dashed;
+}
+.boxparagraph {
+  text-align: justify;
+  font-family: monospace;
+}
+.thirdbox {
+  position: absolute;
+  display: inline-block;
+  background-color: #2265a9;
+  width: 1200px;
+  height: 200px;
+  line-height: 200px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 100px;
+  left: 550px;
+  bottom: -75px;
+}
+
+.fa-solid {
+  display: inline-block;
+}
+
+/* Third section, grid layout */
+
+.grid {
+  width: 100%;
+  height: 800px;
+  margin-top: 150px;
+  position: relative;
+  display: flex;
+  border-bottom: black solid 3px;
+  border-bottom-style: dashed;
+}
+
+.column1 {
+  flex: 1;
+  background-color: #e8e8e8;
+  height: 750px;
+  width: 100%;
+  margin-right: 50px;
+}
+.column2 {
+  flex: 1;
+  background-color: #e8e8e8;
+  height: 750px;
+  width: 100%;
+}
+.column3 {
+  flex: 1;
+  background-color: #e8e8e8;
+  height: 750px;
+  width: 100%;
+  margin-left: 50px;
+}
+.colbox {
+  margin: 30px;
+}
+.colhead {
+  font-size: 35px;
+  border-bottom: 2px solid black;
+  border-bottom-style: dashed;
+  padding-bottom: 20px;
+  font-family: monospace;
+}
+.techimage {
+  width: 100%;
+}
+.techparagraph {
+  font-size: 17px;
+  font-family: monospace;
+  text-align: justify;
+  word-wrap: break-word;
+}
+/* Forth section, another grid layout */
+.secondgrid {
+  margin-top: 50px;
+  display: flex;
+  position: relative;
+  height: 400px;
+  width: 100%;
+}
+.box {
+  flex-grow: 1;
+}
+
+.secondgrid img {
+  flex-grow: 1;
+  width: 20%;
+  height: 90%;
+}
+.center {
+  flex-grow: 5;
+  box-sizing: border-box;
+  width: 520px;
+}
+.secondbox {
+  position: relative;
+  display: inline-block;
+  margin-right: 55px;
+  box-sizing: border-box;
+  margin-top: 0px;
+}
+.secondbox h1 {
+  font-size: 40px;
+  position: relative;
+  margin: 0px;
+}
+.secondbox p {
+  font-size: 17px;
+  font-family: monospace;
+}
+
+.right {
+  background-color: #e8e8e8;
+  position: relative;
+  flex-grow: 5;
+}
+.childbox {
+  position: relative;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 50px;
+}
+.childbox h1 {
+  position: relative;
+  display: inline-block;
+  margin: 0px;
+  color: #a0a0a0;
+  bottom: 20px;
+  font-size: 50px;
+}
+.childbox hr {
+  border: 2px solid #a0a0a0 dashed;
+}
+.childbox ul {
+  padding: 0px;
+  list-style: none;
+  font-size: 22px;
+  font-family: monospace;
+  margin-top: 0px;
+}
+
+.link {
+  text-decoration: none;
+  color: #102f5e;
+}
+.childbox hr {
+  margin-top: 0px;
+}
+.firsthr {
+  position: relative;
+  bottom: 15px;
+}
+
+/* Last images */
+
+.fifthsection {
+  display: flex;
+  height: 280px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  margin-right: 0px;
+}
+.lastimage img {
+  width: 368px;
+  height: 260px;
+  flex-grow: 1;
+}
+/* .lastimage:nth-child(1) {
+  flex-grow: 1;
+}
+.lastimage:nth-child(2) {
+  flex-grow: 1;
+}
+.lastimage:nth-child(3) {
+  flex-grow: 1;
+}
+.lastimage:nth-child(4) {
+  flex-grow: 1;
+}
+.lastimage:nth-child(5) {
+  flex-grow: 1;
+} */
+
+/* Footer */
+.footer {
+  display: flex;
+  height: 70px;
+  background-color: #2265a9;
+  width: 100%;
+}
+.copyright {
+  flex: 1;
+}
+.last-template {
+  flex: 1;
+}
+.copyright h3 {
+  margin-left: 10px;
+  color: white;
+  font-family: monospace;
+  font-size: 23px;
+}
+.last-template h3 {
+  float: right;
+  margin-right: 10px;
+  color: white;
+  font-family: monospace;
+  font-size: 23px;
+}
+
+/* FIRST MEDIA QUERY */
+
+@media screen and (max-width: 1725px) {
+  /* NAV BAR */
+  .menu {
+    font-size: 35px;
+  }
+
+  /* FIRST SECTION */
+  div.corpname {
+    font-size: 65px;
+  }
+  div.templatename {
+    font-size: 26px;
+  }
+  div.details {
+    font-size: 20px;
+  }
+
+  /* SECOND SECTION */
+  div.template {
+    right: 30px;
+  }
+  div.mainbox {
+    width: 450px;
+    height: 340px;
+  }
+  h2.boxheader {
+    font-size: 20px;
+  }
+  div.secondbox p {
+    font-size: 15px;
+  }
+
+  div.technology {
+    width: 1400px;
+    height: 250px;
+  }
+  div.techname {
+    font-size: 160px;
+  }
+  div.thirdbox {
+    width: 1000px;
+    font-size: 70px;
+    height: 150px;
+    line-height: 150px;
+  }
+
+  /* THIRD SECTION */
+  .grid {
+    height: 750px;
+  }
+  .grid .column1 {
+    height: 700px;
+  }
+  .grid .column2 {
+    height: 700px;
+  }
+  .grid .column3 {
+    height: 700px;
+  }
+  .colhead {
+    font-size: 26px;
+  }
+  .techparagraph {
+    font-size: 15px;
+  }
+
+  /* FORTH SECTION */
+  .secondgrid {
+    height: 370px;
+  }
+
+  .secondgrid img {
+    height: 80%;
+  }
+  div.box.center {
+    width: 496px;
+  }
+
+  div.box.right h1 {
+    font-size: 43px;
+  }
+
+  /* FIFTH SECTION */
+  .fifthsection {
+    height: px;
+  }
+  .lastimage img {
+    height: 250px;
+    width: 318px;
+  }
+  /* .lastimage:nth-child(5) {
+    position: relative;
+    left: 150px;
+  } */
+
+  /* FOOTER */
+  .footer {
+    margin-top: 20px;
+  }
+  .footer h3 {
+    font-size: 15px;
+    padding: 13px;
+  }
+}
+
+/* Ipad Mini */
+
+@media screen and (max-width: 820px) {
+  /* NAV BAR */
+  .menu {
+    font-size: 20px;
+  }
+
+  /* FIRST SECTION */
+  .section {
+    line-height: 0px;
+  }
+  div.corpname {
+    font-size: 25px;
+  }
+  div.templatename {
+    font-size: 15px;
+    height: 30px;
+  }
+  div.template {
+    /* right: 15px; de ce nu merge? */
+    flex-grow: 4;
+  }
+  div.details {
+    font-size: 12px;
+  }
+  .contact:nth-child(1) {
+    position: relative;
+    top: 5px;
+  }
+  .contact:nth-child(2) {
+    position: relative;
+    bottom: 5px;
+  }
+  .details {
+    top: 27px;
+  }
+
+  /* SECOND SECTION */
+  .poster {
+    margin-top: 10px;
+    height: 330px;
+  }
+  div.template {
+    right: 30px;
+  }
+  div.mainbox {
+    width: 250px;
+    height: 150px;
+    top: 25px;
+    left: 25px;
+  }
+  h2.boxheader {
+    font-size: 10px;
+  }
+  div.secondbox p {
+    font-size: 6px;
+  }
+
+  div.technology {
+    width: 600px;
+    height: 150px;
+    top: 100px;
+  }
+  div.techname {
+    font-size: 70px;
+  }
+  div.thirdbox {
+    width: 480px;
+    font-size: 40px;
+    height: 70px;
+    line-height: 65px;
+    bottom: -30px;
+    left: 230px;
+  }
+
+  /* THIRD SECTION */
+  .grid {
+    height: 500px;
+    margin-top: 60px;
+  }
+  .grid .column1 {
+    height: 400px;
+    margin-right: 20px;
+  }
+  .grid .column2 {
+    height: 400px;
+  }
+  .grid .column3 {
+    height: 400px;
+    margin-left: 20px;
+  }
+  .colhead {
+    font-size: 10px;
+    padding-bottom: 5px;
+  }
+  .techparagraph {
+    font-size: 10px;
+  }
+
+  /* FORTH SECTION */
+  .secondgrid {
+    height: 160px;
+  }
+
+  .secondgrid img {
+    height: 90%;
+    width: 20%;
+  }
+  .secondbox h1 {
+    font-size: 20px;
+  }
+  div.box.center {
+    width: 280px;
+  }
+
+  div.box.right h1 {
+    font-size: 20px;
+  }
+  .childbox {
+    margin-top: 36px;
+  }
+  .childbox ul {
+    font-size: 12px;
+    margin-top: -10px;
+  }
+  .box.right {
+    height: 180px;
+  }
+
+  /* FIFTH SECTION */
+  .fifthsection {
+    height: 0px;
+    padding-left: 70px;
+  }
+  .lastimage img {
+    height: 150px;
+    width: 300px;
+  }
+  .lastimage:nth-child(5) {
+    position: relative;
+    left: 150px;
+  }
+
+  /* FOOTER */
+
+  .footer {
+    margin-top: 480px;
+  }
+  .footer h3 {
+    font-size: 12px;
+    padding: 15px;
+  }
+}

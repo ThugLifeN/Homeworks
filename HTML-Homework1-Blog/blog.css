@@ -1,0 +1,30 @@
+/* p {
+  letter-spacing: 1px;
+  line-height: 20px;
+  text-align: justify;
+}
+li {
+  letter-spacing: 1px;
+  line-height: 20px;
+  text-align: justify;
+}
+nav {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: larger;
+  font-style: bold;
+}
+
+ul {
+  list-style: none;
+  display: inline-block;
+  color: #4b3c3c;
+}
+.menu {
+  display: inline-block;
+}
+div {
+  color: #4b3c3c;
+} */
